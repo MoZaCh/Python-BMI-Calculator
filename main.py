@@ -1,4 +1,19 @@
 
+def check_height_function(num):
+
+    num_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.']
+    is_num = True
+
+    for i in num:
+        if i not in num_list:
+            is_num = False
+            break
+        else:
+            is_num = True
+
+    return is_num
+
+
 def check_weight_function(num):
     """Returns true or false if the given value is a valid number
 
