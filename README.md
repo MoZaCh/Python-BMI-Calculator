@@ -2,6 +2,6 @@
 
 BMI calculator program developed using Python.
 
-##Inputs
+## Inputs
 * Weight - KG
 * Height - Metres (M)
