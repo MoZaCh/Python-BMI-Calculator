@@ -78,6 +78,8 @@ def bmi_calculator(height, weight):
 
 
 if __name__ == '__main__':
-    print(bmi_calculator(1.7, 58))
+    print(bmi_calculator(1.7, 58))  # Function call to check functions work
     print(check_weight_function('58'))
     print(check_weight_function('5R'))
+    print(check_height_function('2.3'))
+    print(check_height_function('10'))
