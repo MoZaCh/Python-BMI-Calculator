@@ -1,4 +1,31 @@
 
+def check_height_function(num):
+    """Returns true or false if the given value is a valid number
+
+    Parameter
+    ---------
+    num : str
+        A value that is passed to be validated
+
+    Returns
+    -------
+    is_num : boolean
+        True or False depending on if the value is a valid number
+    """
+
+    num_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.']
+    is_num = True
+
+    for i in num:
+        if i not in num_list:
+            is_num = False
+            break
+        else:
+            is_num = True
+
+    return is_num
+
+
 def check_weight_function(num):
     """Returns true or false if the given value is a valid number
 
@@ -51,6 +78,8 @@ def bmi_calculator(height, weight):
 
 
 if __name__ == '__main__':
-    print(bmi_calculator(1.7, 58))
+    print(bmi_calculator(1.7, 58))  # Function call to check functions work
     print(check_weight_function('58'))
     print(check_weight_function('5R'))
+    print(check_height_function('2.3'))
+    print(check_height_function('10'))
