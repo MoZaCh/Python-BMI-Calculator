@@ -24,4 +24,5 @@ def bmi_calculator(height, weight):
 
 
 if __name__ == '__main__':
+    print(bmi_calculator(1.7, 58))
     print("This is a test!")
