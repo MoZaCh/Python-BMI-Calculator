@@ -1,5 +1,17 @@
 
 def check_height_function(num):
+    """Returns true or false if the given value is a valid number
+
+    Parameter
+    ---------
+    num : str
+        A value that is passed to be validated
+
+    Returns
+    -------
+    is_num : boolean
+        True or False depending on if the value is a valid number
+    """
 
     num_list = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.']
     is_num = True
